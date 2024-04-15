@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Cambodiatrip</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Cambodia<span>Trip</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">Blog</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Popular Place in Cambodia</h1>
+                </div>
+                <div class = "header-form">
+                    <h2>Choose your Travel location:</h2>
+                    <form class = "flex">
+                        <input type = "text" class = "form-control" placeholder="Destination name">
+                        <input type="date" class = "form-control" placeholder="Date">
+                        <input type="number" class = "form-control" placeholder="Price ($)">
+                        <input type="submit" class = "btn" value = "Search">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- featured section Kampong Cham -->
+        <section id = "featured" class = "py-2">
+            <div class = "container">
+                <div class = "title-wrap">
+                    
+                    <h2 class = "lg-title">Kampong Cham</h2>
+                </div>
+            
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\bamboo-bridge-to-koh.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Koh Pen Bamboo bridge
+                            </span>
+                            <div>
+                                <p class = "text">The main highlight of my time in Kampong Cham was the bamboo bridge and the island it led to. The click and clatter of the bamboo strips and the softness of the multiple layers Felt like it could give way any minute...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\phnom-srey-and-phnom-pros-2.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Phnom Srey and Phnom Pros
+                            </span>
+                            <div>
+                                <p class = "text">Located at Kro La Commune, Kampong Siem District in Seven- kilometers distance from the provincial town of Kampong Cham or 114-kilometers distance from Phnom Penh with exceeding 500 Metres to the left. The pagoda of Phnom Pros has official name called What Sovan Kiri Rotanak Phnom Pros; in 1000 Meters to the North...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\noko_bachey.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Nokor Bachey
+                            </span>
+                            <div>
+                                <p class = "text">Nokor Bachey temple is a cultural and historical site. It is located 2.2 kilometers from Kampong Cham provincial town along National Road 7, about 122 kilometers northeast of Phnom Penh. Visitors traveling from Phnom Penh will see the gate to the pagoda on the...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\haong-waterfall.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Haong Waterfall
+                            
+                            </span>
+                            <div>
+                                <p class = "text">The site is a mountain that features a cliff and waterfall. Inaccessible at one time, it has become a popular tourist destination in Kampong Cham province. There might be no other place like Haong in the province, where visitors can see real</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\French-Colonial-Watchtower.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                The France Tower
+                            </span>
+                            <div>
+                                <p class = "text">One of the most iconic sights in Kampong Cham is the French Colonial Watchtower on the banks of the Mekong. It was built in the 1900s to guard the river, as Kampong Cham was an important trading port for the French at this time. It looks magical on the riverbank and reminds visitors of a former era...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\wat_hanchey_4.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Wat Hanchey
+                            </span>
+                            <div>
+                                <p class = "text">Wat Hanchey has a long-standing history as it surpassed many noticeable periods of time in Cambodia. The oldest part of the complex was built between the 7th and 8th centuries. At that time, the temple played a crucial part in the worship during Chenla Empire before the glorious days of the Khmer Empire coming for having prestigious Angkor Wat and Angkor Thom in the 12th century...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- featured section siem Reap -->
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                   
+                    <h2 class = "lg-title">Siem Reap</h2>
+                </div>
+            
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\20171126_Angkor_Wat_4712_DxO.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Angkor Wat Temple
+                            </span>
+                            <div>
+                                <p class = "text">Angkor Wat, in its beauty and state of preservation, is unrivaled. Its mightiness and magnificence bespeak a pomp and a luxury surpassing that of a Pharaoh or a Shah Jahan, an impressiveness greater than that of the Pyramids...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\Bayons-face-towers-angkor-thom-cambodia-2.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Bayon Temple
+                            </span>
+                            <div>
+                                <p class = "text">We stand before it stunned. It is like nothing else in the land. The Bayon is located in the center of the city of Angkor Thom 1500 meters (4921 feet) from the south gate. Enter tower of the Bayon is from the east. Prasat Bayon was built in late 12th century to early 13th century, by the King Jayavarman VII...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\e23688daa1adfb33dd021a01a7718769a03b20d3.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Angkor Thom
+                            </span>
+                            <div>
+                                <p class = "text">Angkor Thom, located in present-day Cambodia, was the last and most enduring capital city of the Khmer empire. It was established in the late twelfth century by King Jayavarman...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\10030p000000fi9uq9677.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Ta Prohm Temple
+                            
+                            </span>
+                            <div>
+                                <p class = "text">Ta Prohm's state of ruin is a state of beauty, which is investigated with delight and left with regret. Ta Prohm is locating southwest of the East Mebon and east of Angkor Thom. Its outer enclosure is near the corner of Banteay Kdei. It can be accessed by enter the monument from the west and leave from the east...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\ministry-of-tourism-cambodia-2019-02-27-03-22-37am1551237758-1465.png" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Neak Pean Temple
+                            </span>
+                            <div>
+                                <p class = "text">Neak Pean at Angkor, Cambodia is an artificial island with a Buddhist temple on a circular island in Preah Khan Baray built during the reign of King Jayavarman VII. It is the "Mebon" of the Preah Khan...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\beng-mealea.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Beng Mealea
+                            </span>
+                            <div>
+                                <p class = "text">Beng Mealea or Bung Mealea is a temple in the Angkor Wat period:118-119 located 40 km east of the main group of temples at Angkor, Cambodia, on the ancient royal highway to Preah Khan Kompong...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- featured section Kampong Thom -->
+         <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+            
+                    <h2 class = "lg-title">Kampong Thom</h2>
+                </div>
+            
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\sambor-prei-kuk-temple.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Sambor Prei Kuk Temple
+                            </span>
+                            <div>
+                                <p class = "text">Sambor Prei Kuk is an archaeological site in Cambodia located in Kampong Thom Province, 30 km north of Kampong Thom, the...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\stairway_to_phnom_santuk_by_2eight_dsc3653.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Phnom Suntuk Mountain
+                            </span>
+                            <div>
+                                <p class = "text">Phnom Santok is a cultural and natural site located in Ko Koh village, Ko Koh commune, Santuk district, about 17 kilometers south of Kampong Thom provincial town. The site include four mountains: Phnom Srah Kmao or Phnom Tbeng, Phnom Penhum or Phnom Kraper, Phnom Champa and Phnom ...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\prasat_kuhak_nokor.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Prasat Kuh Nokor, Kampong Thom
+                            </span>
+                            <div>
+                                <p class = "text">Prasat Kuh Nokor is a Buddhist temple in the village of Trodoc Poung, Pong Ror commune, in Baray District, in Kampong Thom Province, Cambodia. It was built in 10th-11th century by the king Suryavarman I. It is part of the pagoda Wat Kuh...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\kampong-thom-museum.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Kampong Thom Museum
+                            
+                            </span>
+                            <div>
+                                <p class = "text">This seriously bijou museum (it's one room and a small outdoor gallery) actually packs a pretty good punch with statuary and stelae from local sites, including a fine selection of beautiful pieces from Sambor Prei Kuk. It's well worth poking your head in on your way back from the site...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\andet-temple-kampong-thom.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Andet Temple, Kampong Thom
+                            </span>
+                            <div>
+                                <p class = "text">Prasat Andet is located about 27 kilometers northwest of Provincial Town of Kampong Thom, in Prasat Village, Sankor Commune, Kampong Svay District, Kampong Thom Province. The temple was built in second half of 7th century (627-707) during the reign of king Jayavarman I to dedicate to God Hirihara, in Kampong Preah style and made of...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\stung-sen-river-kampong-thom.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Stung Sen River
+                            </span>
+                            <div>
+                                <p class = "text">River swells during the rainy season, you can hire a boat to take you across. Really the best time to visit is during Water Festival, usually in November. Provincial boat races go on throughout the weekend, awesome sight to see all the boats going...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- featured section Kampot -->
+         <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <h2 class = "lg-title">Kampot</h2>
+                </div>
+            
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\2e.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Kampot Day Tour "Bokor National Park"
+                            </span>
+                            <div>
+                                <p class = "text">Enjoy a great excursion from Kampot with this trip to Bokor National Park. Meet your driver at your hotel and then head out into the Cambodian countryside. Once in the national park, enjoy amazing views extending out to Sihanoukville and the shining ocean beyond, visit a historic colonial church, stop by the charming Popokvil Waterfall, take in the Nepenthes Flower Fields and much more...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\75.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Pepper Plantation, Salt Field, Cave, Secret Lake
+                            </span>
+                            <div>
+                                <p class = "text">This tour takes visitors to the wonders of Kampot, allowing visitors to experience the authentic countryside of Cambodia. The first stop is to the Salt Fields before carrying on to Phnom Chhngok Cave Temple, then to Brateak Krola Lake that is actually an impressive dam, before ending at La Plantation...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\new-Phnom-Daung.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Phnom Daung
+                            </span>
+                            <div>
+                                <p class = "text">Phnom Daung, Kampot is located in the Beoung Tapream Village, Treuy Koh Commune in Kampot. It is 7 kilometers away from the provincial city. 
+
+                                    Phnom Daung Classification Nature Wildlife and Preserves Location Beoung Tapream Village, Treuy Koh Commune, Kampong Bay District Accessibility 7 km (11mn) From Provincial Town....</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\new-Kampong Trach.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Kampong Trach
+                            
+                            </span>
+                            <div>
+                                <p class = "text">The town of Kampong Trach, Kampot is a small one but still offers enough attractions to the ...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\new-Tekchhou-Resort.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Tekchhou Resort
+                            </span>
+                            <div>
+                                <p class = "text">The Tekcchou Resort in Kampot is a popular picnic place close to the town. The Tekcchou Resort in ...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\new-Prek-Ampil.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Prek Ampil
+                            </span>
+                            <div>
+                                <p class = "text">Prek Ampil is located on the coast in Koh Toch commune, Kampot district, about 18 kilometers west ...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- featured section kep -->
+         <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <h2 class = "lg-title">Kep</h2>
+                </div>
+            
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\new-Veal-Lumher.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Veal Lumher
+                            </span>
+                            <div>
+                                <p class = "text">Veal Lumher is a lovely little site tucked away in Kep Village of Kep Commune. Veal Lumher refers ...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\new-Phnom-Sar-Sear.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Phnom Sar Sear
+                            </span>
+                            <div>
+                                <p class = "text">Phnom Sar Sear consists of three small mountains spread across a total land area of approximately ...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\new-Koh-Tonsay-Resort.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Koh Tonsay Resort
+                            </span>
+                            <div>
+                                <p class = "text">Koh Ton Say Resort is the natural resort locating at the Southeast of Kep town in 4.5-kilometer ...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\new-Kep-Beach.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Kep Beach
+                            
+                            </span>
+                            <div>
+                                <p class = "text">A single, kilometer long crescent of sand near the tip of the Kep peninsula. Dining platforms and ...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\new-Kep-National-Park.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Kep National Park
+                            </span>
+                            <div>
+                                <p class = "text">Kep National Park is a national park of Cambodia in the Kep region of Cambodia. Established in 1993 it covers an area of 50 square kilometres. The nearest town lies at Krong Kaeb...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\new-Salt Manufacturing Kep.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Salt Manufacturing Kep
+                            </span>
+                            <div>
+                                <p class = "text">Salt Manufacturing, Kep City is well known in Cambodia and found in the seaside province of Kampot. The product assured for local consumption and exportation...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- featured section preah sihanuk -->
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <h2 class = "lg-title">preah sihanouk</h2> 
+                </div>
+            
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\Screenshot 2024-02-04 174857.png" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Bamboo Island
+                            </span>
+                            <div>
+                                <p class = "text">Bamboo Island is about 4.5 km off the coast of Sihanoukville. A boat ride to this laidback island takes about 30 minutes, and once there, you'll find that only about 30 people live on the island. On the north-facing crescent beach, Bamboo Island has several bungalow resorts, restaurants and bars...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\kohronnew.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Koh Rong
+                            </span>
+                            <div>
+                                <p class = "text">Koh Rong is a group of islands just off the Cambodian coast, near Sihanoukville, which offers 23 amazing white-sand beaches bordering azure seas. It is still very much an unspoilt paradise, with 5 tiny islands in the area, 3 of which are uninhabited. Of the other 2, the main island of Koh Rong is a bit of a party island that's popular with backpackers, while Koh Rong Sanloem has a quieter and more easygoing atmosphere...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\reamnatinalpark.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Ream National Park
+                            </span>
+                            <div>
+                                <p class = "text">Ream National Park is located in the Prey Nob district of Sihanoukville Province in south-eastern Cambodia. It consists of a part of the mainland, including thick forests and 21 islands rich in marine life. Ream is one of the most visited national parks in the country as people visiting Sihanoukville come here to experience a combination of abundant wildlife and marine life. It is worth planning a day trip if you are visiting the province, especially if you are traveling with kids...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\otres.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Otres Beach
+                            
+                            </span>
+                            <div>
+                                <p class = "text">Otres Beach is located off the Phnom Som Nak Sdach close to Sihanoukville in Cambodia. After Ochheuteal, it is the second most visited beach by the tourists. It is also quite popular among the young locals who arrive here during the weekends and holidays for a beach getaway...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\Ochheuteal Beach.png" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Ochheuteal Beach
+                            </span>
+                            <div>
+                                <p class = "text">Ochheuteal Beach is located in the province of Sihanoukville in Cambodia. It is the most popular beach among the tourists with its 4km coastline catering to their holiday. Crystal clear blue waters lined with soft white sand and palm trees, mangrove forests, excellent seafood, plenty of options to enjoy adventure watersports, seaside bungalows and cafes make Ochheuteal beach the most visited place for the travelers...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\Koh-Thmei-Cambodja-BST-new.jpg-scaled.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Koh Thmei Beach
+                            </span>
+                            <div>
+                                <p class = "text">Koh Thmei beach is located in Ream National Park in the province of Sihanoukville in Cambodia. It is popular among the tourists visiting the town for its mangrove forests, many watersport activities along the white sand coastal line. Many tour operators and guesthouses offer group and private boat tours as day trips from Sihanoukville categorising based on the activities involved...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- featured section preah sihanuk -->
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <h2 class = "lg-title">preah sihanouk</h2> 
+                </div>
+            
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\Screenshot 2024-02-04 174857.png" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Bamboo Island
+                            </span>
+                            <div>
+                                <p class = "text">Bamboo Island is about 4.5 km off the coast of Sihanoukville. A boat ride to this laidback island takes about 30 minutes, and once there, you'll find that only about 30 people live on the island. On the north-facing crescent beach, Bamboo Island has several bungalow resorts, restaurants and bars...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\kohronnew.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Koh Rong
+                            </span>
+                            <div>
+                                <p class = "text">Koh Rong is a group of islands just off the Cambodian coast, near Sihanoukville, which offers 23 amazing white-sand beaches bordering azure seas. It is still very much an unspoilt paradise, with 5 tiny islands in the area, 3 of which are uninhabited. Of the other 2, the main island of Koh Rong is a bit of a party island that's popular with backpackers, while Koh Rong Sanloem has a quieter and more easygoing atmosphere...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\reamnatinalpark.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Ream National Park
+                            </span>
+                            <div>
+                                <p class = "text">Ream National Park is located in the Prey Nob district of Sihanoukville Province in south-eastern Cambodia. It consists of a part of the mainland, including thick forests and 21 islands rich in marine life. Ream is one of the most visited national parks in the country as people visiting Sihanoukville come here to experience a combination of abundant wildlife and marine life. It is worth planning a day trip if you are visiting the province, especially if you are traveling with kids...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\otres.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Otres Beach
+                            
+                            </span>
+                            <div>
+                                <p class = "text">Otres Beach is located off the Phnom Som Nak Sdach close to Sihanoukville in Cambodia. After Ochheuteal, it is the second most visited beach by the tourists. It is also quite popular among the young locals who arrive here during the weekends and holidays for a beach getaway...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\Ochheuteal Beach.png" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Ochheuteal Beach
+                            </span>
+                            <div>
+                                <p class = "text">Ochheuteal Beach is located in the province of Sihanoukville in Cambodia. It is the most popular beach among the tourists with its 4km coastline catering to their holiday. Crystal clear blue waters lined with soft white sand and palm trees, mangrove forests, excellent seafood, plenty of options to enjoy adventure watersports, seaside bungalows and cafes make Ochheuteal beach the most visited place for the travelers...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images\Koh-Thmei-Cambodja-BST-new.jpg-scaled.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Koh Thmei Beach
+                            </span>
+                            <div>
+                                <p class = "text">Koh Thmei beach is located in Ream National Park in the province of Sihanoukville in Cambodia. It is popular among the tourists visiting the town for its mangrove forests, many watersport activities along the white sand coastal line. Many tour operators and guesthouses offer group and private boat tours as day trips from Sihanoukville categorising based on the activities involved...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- services section -->
+        <section id = "services" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">know about services that we offer</span>
+                    <h2 class = "lg-title">Our services</h2>
+                </div>
+
+                <div class = "services-row">
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-hotel"></i>
+                        </span>
+                        <h3>Luxurious Hotel</h3>
+                        <p class = "text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quo, totam repellat velit, dignissimos sequi error a minima architecto fugit nisi dolorum repellendus?</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <h3>Trave Guide</h3>
+                        <p class = "text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quo, totam repellat velit, dignissimos sequi error a minima architecto fugit nisi dolorum repellendus?</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-money-bill"></i>
+                        </span>
+                        <h3>Suitable Price</h3>
+                        <p class = "text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quo, totam repellat velit, dignissimos sequi error a minima architecto fugit nisi dolorum repellendus?</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of services section -->
+
+        <!-- testimonials section -->
+        <section id = "testimonials" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">what our clients say about us</span>
+                    <h2 class = "lg-title">testimonials</h2>
+                </div>
+
+                <div class = "test-row">
+                    <div class = "test-item">
+                        <p class = "text">The combination of the archaeology, the food and wine experiences, the swimming and the generally relaxed atmosphere made for a very enjoyable tour. There was a high attention to detail. Our main tour guide was very enthusiastic and highly qualified. Excellent.</p>
+                        <div class = "test-item-info">
+                            <img src = "images\man.png" alt = "testimonial">
+                            <div>
+                                <h3>HONG VIRAKSATYA</h3>
+                                <p class = "text">KAMPOT PROVINCE</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">Excellent. Our booking was easy, the pre-information packet was timely and thorough. Interim questions were handled promptly and thoroughly, including going out of their way to help us with some hard to get reservations. The transfers were perfect and done with a high class Mercedes vehicle.</p>
+                        <div class = "test-item-info">
+                            <img src = "images\man.png" alt = "testimonial">
+                            <div>
+                                <h3>HOY CHANMAKARA</h3>
+                                <p class = "text">SIEM REAP PROVINCE</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">Peter Sommer runs a a highly professional organization. From his brochure to drop off at the airport to fly home his attention to detail and his consideration for his clients is superb. The archaeologists he uses as guides are erudite but highly personable and have an ability to turn a pile of stones into a recreation of the lives of the people who lived there over two millennia ago. Excellent.</p>
+                        <div class = "test-item-info">
+                            <img src = "images\man.png" alt = "testimonial">
+                            <div>
+                                <h3>ISA ITY</h3>
+                                <p class = "text">KAMPONG CHAM PROVINCE</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of testimonials section -->
+
+        <!-- video section -->
+        <section id = "video">
+            <div class = "video-wrapper flex">
+                <video loop>
+                    <source src = "videos\4K Drone footage from Angkor Wat in Cambodia.webm" type = "video/mp4">
+                </video>
+                <button type = "button" id = "play-btn">
+                    <i class = "fas fa-play"></i>
+                </button>
+            </div>
+        </section>
+        <!-- end of video section -->
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Star<span>Boy</span>
+                    </a>
+                    <p class = "text">Agency offering information about Cambodia on tourism, culture, history, visa, attractions, province guides, trip planner, hotels, flights, cars, tours, news, photo and online bookings.</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Popular Places:</h2>
+                    <ul>
+                        <li><a href = "#">Kampong Cham</a></li>
+                        <li><a href = "#">Siem Reap</a></li>
+                        <li><a href = "#">Preah Sihanuk</a></li>
+                        <li><a href = "#">Kampot</a></li>
+                        <li><a href = "#">Kampong Thom</a></li>
+                        <li><a href = "#">Preah Vihea</a></li>
+                        <li><a href = "#">Koh Kong</a></li>
+                        <li><a href = "#">Banteay Meanchey</a></li>
+                        <li><a href = "#">Stung Treng</a></li>
+                        <li><a href = "#">Kep</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+        <script>
+            // play/pause video
+            let video = document.querySelector('.video-wrapper video');
+            document.getElementById('play-btn').addEventListener('click', () => {
+                if(video.paused){
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script>
+    </body>
+</html>
